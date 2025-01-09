@@ -9,7 +9,7 @@ import {
 } from "@solana/wallet-adapter-react-ui";
 
 import "@solana/wallet-adapter-react-ui/styles.css";
-import Airdrop from "./components/Airdrop";
+import RequestAirdrop from "./components/RequestAirdrop";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
           <WalletMultiButton />
           <WalletDisconnectButton />
           <div>hi</div>
-          <Airdrop />
+          <RequestAirdrop />
         </WalletModalProvider>
       </WalletProvider>
     </ConnectionProvider>
